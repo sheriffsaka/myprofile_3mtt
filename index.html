@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Webpage</title>
+</head>
+<body>
+
+    <!-- Header Section (Identifies the page purpose) -->
+    <header>
+        <h1>My Profile</h1>
+    </header>
+
+    <!-- Navigation Landmark -->
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- Objective Section -->
+        <section id="objective">
+            <h2>Objective</h2>
+            <p>
+                This webpage introduces my personal and professional background, interests, and contact details.  
+                It follows best practices for **semantic HTML and accessibility**, ensuring compatibility with screen readers.
+            </p>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <figure>
+                <img src="images/Sheriff1.jpg" width="250" height="250" 
+                     alt="Sheriff Saka, a Nigerian software developer">
+                <figcaption>Profile picture of Saka Sheriff Alade</figcaption>
+            </figure>
+            <p>
+                I am Saka Sheriff Alade, a graduate of Computer Science from Kwara State, Nigeria,  
+                currently based in Kano State. I specialize in programming and problem-solving using computers.  
+                I am passionate about teaching, mentoring interns online, and working as a freelance developer.
+            </p>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" aria-labelledby="hobbies-heading">
+            <h2 id="hobbies-heading">My Hobbies</h2>
+            <p>Some of my hobbies include:</p>
+            <ul>
+                <li>Reading</li>
+                <li>Teaching</li>
+                <li>Programming Computers</li>
+                <li>Learning new things</li>
+                <li>Playing Football</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Contact Section -->
+    <footer id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Me</h2>
+        <p>I am available for freelance work. You can reach me via:</p>
+        <address>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:sheriffzak@gmail.com">sheriffzak@gmail.com</a></li>
+                <li><strong>Telephone:</strong> <a href="tel:+2348033618259">+2348033618259</a></li>
+                <li><strong>Facebook:</strong> <a href="https://facebook.com/sheriffsaka">facebook.com/sheriffsaka</a></li>
+                <li><strong>X (Twitter):</strong> <a href="https://x.com/simplysaka">x.com/simplysaka</a></li>
+            </ul>
+        </address>
+        <p>Designed By: Saka Sheriff Alade (c) 2025</p>
+    </footer>
+
+</body>
+</html>
